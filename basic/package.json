@@ -1,0 +1,19 @@
+{
+    "name": "lemonapp",
+    "title": "Lemonade App Demo",
+    "description": "Jspreadsheet is a lightweight, vanilla javascript plugin to create amazing web-based interactive tables and spreadsheets compatible with Excel, Google Spreadsheets and any other spreadsheet software.",
+    "dependencies": {
+        "http-server": "^13.0.0",
+        "lemonadejs": "^1.6.1"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "faker": "^5.5.3",
+        "mocha": "^8.4.0"
+    },
+    "main": "dist/index.js",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "mocha --exit tests/**/*.test.js"
+    }
+}
